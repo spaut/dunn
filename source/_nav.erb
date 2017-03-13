@@ -1,0 +1,8 @@
+
+<nav class="mv4 fl pa4">
+  <% data.toc.each do |f| %>
+    <li class="lh-copy list">
+      <%= link_to  f.title, f.url, :class => 'dark-blue link underline-hover' %> 
+    </li>
+  <% end %>
+</nav>
