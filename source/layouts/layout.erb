@@ -19,20 +19,33 @@
 		</style>
 	</head>
 
-  <body class="<%= page_classes %> pa5">
-    <header>
-      <%= image_tag 'logo.jpg', :class => "bg-black w6"  %>
+  <body class="<%= page_classes %> pa5 athelas black-70 f4">
+    <header class="mw8 center">
+      <% link_to '/', :class => "link dib"  do %>
+        <%= image_tag 'logo.jpg', :class => "", :width => "300" %>
+      <% end %>
+      <nav class="fr">
+        <%= link_to  'Wines', 'wines.html', :class => 'dark-blue link underline-hover ph3' %>
+        <%= link_to  'Vineyards', 'vineyards.html', :class => 'dark-blue link underline-hover ph3' %>
+        <%= link_to  'About', 'about.html', :class => 'dark-blue link underline-hover ph3' %>
+        <%= link_to  'Contact', 'contact.html', :class => 'dark-blue link underline-hover ph3' %>
+      </nav>
     </header>
-    <%= partial 'nav' %>
-    <article class="cf">
-    <section class="fl w-60">
+
+    <section class="mw8 center mt5">
+      <% if current_page.data.title.present? %>
+        <h1 class="normal"><%= current_page.data.title %></h1>
+      <% end %>
       <%= yield %>
     </section>
-    </article>
-    <footer class="bg-light-gray pa3 cf">
-    <%= partial 'nav' %>
-    <%= partial 'social' %>
-    <p class="f6">&copy; 2017 Dunn Vineyards</p>
+
+    <footer class="bg-light-gray w-100 pa3 mt5">
+      <div class="mw8 center">    
+        <%= partial 'footer-nav' %>
+        <%= partial 'social' %>
+        <p class="f6">&copy; 2017 Dunn Vineyards</p>
+      </div>
+
     </footer>
   </body>
 </html>

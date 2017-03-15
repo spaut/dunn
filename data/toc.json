@@ -1,6 +1,10 @@
 [
-  { "title": "home",
+  { "title": "Home",
      "url": "index.html",
+     "desc": ""
+  },
+  { "title": "Philosophy",
+     "url": "philosophy.html",
      "desc": ""
   },
   { "title": "Wines",
@@ -30,6 +34,11 @@
  {
    "title": "Family",
    "url": "family.html"
+ },
+
+ {
+   "title": "History",
+   "url": "history.html"
  },
  {
    "title": "Contact",
