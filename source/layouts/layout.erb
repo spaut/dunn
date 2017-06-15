@@ -20,8 +20,8 @@
 		</style>
 	</head>
 
-  <body class="<%= page_classes %> pa5 athelas black-70 f4">
-    <header class="mw8 center">
+  <body class="<%= page_classes %> pa4 athelas black-70 f4">
+    <header class="mw8 center pb4">
       <% link_to '/', :class => "link dib"  do %>
         <%= image_tag 'logo.jpg', :class => "pl1", :height => "72" %>
       <% end %>
@@ -34,12 +34,14 @@
       </nav>
     </header>
 
-    <section class="mw8 center mt5">
+
+    <section class="w8 center">    
       <% if current_page.data.title.present? %>
         <h1 class="normal"><%= current_page.data.title %></h1>
       <% end %>
-      <%= yield %>
     </section>
+
+    <%= yield %>
 
     <%= partial 'footer' %>
 
