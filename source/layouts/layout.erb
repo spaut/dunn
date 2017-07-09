@@ -12,7 +12,14 @@
 
 		<%= stylesheet_link_tag "normalize" %>
 		<link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css"/>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
 		<%= javascript_include_tag  "all" %>
+
 		<style>
 			html {
 				-webkit-font-smoothing: antialiased;
@@ -23,7 +30,7 @@
   <body class="<%= page_classes %> pa4 athelas black-70 f4">
     <header class="mw8 center pb4">
       <% link_to '/', :class => "link dib"  do %>
-        <%= image_tag 'logo.jpg', :class => "pl1", :height => "72" %>
+        <%= image_tag 'logo.png', :class => "pl1", :height => "72" %>
       <% end %>
       <nav class="fr" style="line-height: 72px;">
         <%= link_to  'The Wine', 'wines.html', :class => 'dark-blue link dim ph3' %>
