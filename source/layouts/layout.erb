@@ -41,11 +41,17 @@
       </nav>
     </header>
 
-    <section class="mw8 center mv4">    
-      <% if current_page.data.title.present? %>
-        <h1 class="normal"><%= current_page.data.title %></h1>
+      <% if current_page.data.hero.present? %>
+        <section class="w-100 tc mb5">
+          <%= image_tag current_page.data.hero, :class => 'w-100' %>
+        </section>
       <% end %>
-    </section>
+
+      <% if current_page.data.title.present? %>
+        <section class="mw8 center mb4">    
+          <h1 class="normal mv0 tc"><%= current_page.data.title %></h1>
+        </section>
+      <% end %>
 
     <%= yield %>
 
