@@ -18,6 +18,9 @@ page '/*.txt', layout: false
 
 # General configuration
 
+# Pretty urls (not .html)
+activate :directory_indexes
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
