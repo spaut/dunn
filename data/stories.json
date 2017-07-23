@@ -1,5 +1,4 @@
-[
-	{
+[{
 		"year": 1975,
 		"story": "Randy is hired by Caymus as the Enologist."
 	},
@@ -113,7 +112,7 @@
 	},
 	{
 		"year": 2011,
-		"story": "SFGate Publish <a class=\"link" target=\"_blank\" href=\"http://www.sfgate.com/wine/thirst/article/Randy-Dunn-s-Cabernet-crusade-3813953.php\">\"Randy Dunn's Cabernet Crusade\"</a>."
+		"story": "SFGate Publish <a class=\"link\" target=\"_blank\" href=\"http://www.sfgate.com/wine/thirst/article/Randy-Dunn-s-Cabernet-crusade-3813953.php\">\"Randy Dunn's Cabernet Crusade\"</a>."
 	},
 	{
 		"year": 2013,
@@ -127,7 +126,7 @@
 		"year": 2015,
 		"story": "Ashlyn, Kristina and Brian’s second daughter is born.",
 		"story2": "Fernando Olivera Hernandez is hired full time with us",
-		"story": "Jay McInerney pays a visit to the winery and <a class=\"link\" target=\"_blank\" href=\"http://www.townandcountrymag.com/leisure/drinks/a4256/jay-mcinerney-june-july-2014/\"> writes it up</a>."
+		"story3": "Jay McInerney pays a visit to the winery and <a class=\"link\" target=\"_blank\" href=\"http://www.townandcountrymag.com/leisure/drinks/a4256/jay-mcinerney-june-july-2014/\"> writes it up</a>."
 	},
 	{
 		"year": 2016,
