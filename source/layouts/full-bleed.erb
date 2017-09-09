@@ -27,7 +27,8 @@
 		</style>
 	</head>
 
-  <body class="<%= page_classes %> pv4 athelas black-70 f4">
+  <body class="<%= page_classes %> athelas black-70 f4">
+   <section  class="pt4" style="background: url('/images/<%= current_page.data.hero %>') top center; background-size: cover; height: 100vh;">
     <header class="mw8 center pb4">
       <% link_to '/', :class => "link dib"  do %>
         <%= image_tag 'logo.png', :class => "pl1", :height => "72" %>
@@ -39,20 +40,9 @@
         <%= link_to  'The Story', 'story', :class => 'dark-blue link dim ph3' %>
       </nav>
     </header>
-
-      <% if current_page.data.hero.present? %>
-        <section class="w-100 tc mb5">
-          <%= image_tag current_page.data.hero, :class => 'w-100' %>
-        </section>
-      <% end %>
-
-      <% if current_page.data.title.present? %>
-        <section class="mw8 center mb4">    
-          <h1 class="normal mv0 tc"><%= current_page.data.title %></h1>
-        </section>
-      <% end %>
-
     <%= yield %>
+   </section>
+
 
     <%= partial 'footer' %>
 

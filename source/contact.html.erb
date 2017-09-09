@@ -2,19 +2,20 @@
 title: "Contact" 
 ---
 
+<section class="mv5">
+	<div class="mw8 center cf mb4">
 
-<p class="lh-copy measure">Dunn Vineyards is a small working farm. We enjoy having people up to see what’s going on, but we are frequently busy tending to the vines, making wine or fixing equipment. The winery is also the home of Randy and Lori and after a week of work we love the peace and quiet of living in the woods. This means that we do not host anyone on the weekend. Please feel free to email <%= mail_to 'ben@dunnvineyards.com', "Ben" %> and if we are available, during the week we’d be more than happy to show you around.</p>
+		<div class="fl w-100 w-50-l ph4">
+      <h2 class="normal mt5">Visiting</h2>
+      <p class="lh-copy measure">Dunn Vineyards is a small working farm. We enjoy having people up to see what’s going on, but we are frequently busy tending to the vines, making wine or fixing equipment. The winery is also the home of Randy and Lori and after a week of work we love the peace and quiet of living in the woods. This means that we do not host anyone on the weekend. Please feel free to email <%= mail_to 'ben@dunnvineyards.com', "Ben", :class => "dark-blue link dim" %> and if we are available, during the week we’d be more than happy to show you around.</p>
+      <p class="lh-copy measure"><%= mail_to 'ben@dunnvineyards.com', "Email Ben",:class => "dark-blue link dim" %></p>
+    </div>
 
+		<div class="fl w-100 w-50-l ph4">
+      <h2 class="normal mt5">Allocation</h2>
+      <p class="lh-copy measure">Our wine is sold direct to our loyal customers via our annual newsletter.  While the Dunn wines have historically proven to be age worthy and are highly sought after by fans and collectors alike. We do re-release wines from time to time to our mailing list customers. If you have not purchased our wine from us directly and are interested in becoming a part of our annual newsletter, please email <%= mail_to 'info@dunnvineyards.com', "Erin",:class => "dark-blue link dim" %> for information.</p>
+      <p class="lh-copy measure"><%= mail_to 'info@dunnvineyards.com', "Email Erin",:class => "dark-blue link dim" %></p>
+    </div>
 
-<h2 class="normal mt5">The Mailing List</h2>
-<p class="lh-copy measure">Our wine is sold direct to our loyal customers via our annual newsletter.  While the Dunn wines have historically proven to be age worthy and are highly sought after by fans and collectors alike. We do re-release wines from time to time to our mailing list customers. If you have not purchased our wine from us directly and are interested in becoming a part of our annual newsletter, please email <%= mail_to 'info@dunnvineyards.com', "info@dunnvineyards.com" %> for information.</p>
-
-
-<div class="bg-light-silver mv5 pa5">
-<p class="lh-copy measure">Dunn Vineyards does not currently hosts tours and tastings. All wine is sold through allocation and occasionally older vintages become available. Please use the below form to contact us for further information.</p>
-
-<h2 class="normal mt5">The Mailing List</h2>
-<p class="lh-copy measure">Dunn Vineyards wine is sold from the winery through an annual allocation. Though there are several thousand individuals on our     mailing list, wine sales are based on a first come first serve basis. One of the benefits to receiving our annual offering through email, is the stories that we share with those who are interested. If you are interested in being put on the wait list to get on the mailing list please contact the winery via the form below.</p>
-
-<%= mail_to 'info@dunnvineyards.com', "info@dunnvineyards.com" %>
-</div>
+  </div>
+</section>
