@@ -10,7 +10,7 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Dunn Vineyards" %></title>
 
-		<%= stylesheet_link_tag "normalize" %>
+		<%= stylesheet_link_tag "normalize", "dunn" %>
 		<link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css"/>
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -37,8 +37,25 @@
         <%= link_to  'The Place', 'place', :class => 'dark-blue link dim ph3' %>
         <%= link_to  'The Family', 'family', :class => 'dark-blue link dim ph3' %>
         <%= link_to  'The Story', 'story', :class => 'dark-blue link dim ph3' %>
+
+				<div class="button">
+						<a class="btn-open" href="#"></a>
+				</div>
+
       </nav>
     </header>
+
+    <div class="overlay">
+      <div class="wrap">
+        <nav class="f1 lh-copy mt6">
+          <%= link_to  'Home', 'index', :class => 'white link dim db' %>
+          <%= link_to  'The Wine', 'wines', :class => 'white link dim db' %>
+          <%= link_to  'The Place', 'place', :class => 'white link dim db' %>
+          <%= link_to  'The Family', 'family', :class => 'white link dim db' %>
+          <%= link_to  'The Story', 'story', :class => 'white link dim db' %>
+        </nav>
+      </div>
+    </div>
 
       <% if current_page.data.hero.present? %>
         <section class="w-100 tc mb5">
@@ -55,6 +72,20 @@
     <%= yield %>
 
     <%= partial 'footer' %>
+
+    <script>
+			$(document).ready(function(){
+				$(".button a").click(function(){
+					$(".overlay").fadeToggle(200);
+					$(this).toggleClass('btn-open').toggleClass('btn-close');
+				});
+			});
+			$('.overlay').on('click', function(){
+				$(".overlay").fadeToggle(200);   
+				$(".button a").toggleClass('btn-open').toggleClass('btn-close');
+				open = false;
+			}); 
+    </script>
 
   </body>
 </html>
