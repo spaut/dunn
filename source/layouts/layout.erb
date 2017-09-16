@@ -28,6 +28,8 @@
 	</head>
 
   <body class="<%= page_classes %> pv4 athelas black-70 f4">
+
+
     <header class="mw8 center pb4">
       <% link_to '/', :class => "link dib"  do %>
         <%= image_tag 'logo.png', :class => "pl1", :height => "72" %>
@@ -45,6 +47,9 @@
       </nav>
     </header>
 
+
+    <!-- HAMBURGER NAV OVERLAY -->
+
     <div class="overlay">
       <div class="wrap">
         <nav class="f1 lh-copy mt6">
@@ -54,8 +59,18 @@
           <%= link_to  'The Family', 'family', :class => 'white link dim db' %>
           <%= link_to  'The Story', 'story', :class => 'white link dim db' %>
         </nav>
+        <div class="mt4 f6 ttu tracked">
+          <%= link_to 'Facebook', 'https://www.facebook.com/Dunn-Vineyards-173548589349104/', :class => 'di white link dim pr3' %>
+          <%= link_to 'Instagram', 'https://www.instagram.com/dunnvineyards/', :class => 'di white link dim pr3' %>
+          <%= link_to 'Contact Us', 'contact', :class => 'di white link dim' %>
+        </div>
       </div>
     </div>
+
+    <!-- END OVERLAY -->
+
+
+    <!-- PAGE START -->
 
       <% if current_page.data.hero.present? %>
         <section class="w-100 tc mb5">
@@ -70,8 +85,12 @@
       <% end %>
 
     <%= yield %>
+    
+    <!-- END PAGE -->
+
 
     <%= partial 'footer' %>
+    
 
     <script>
 			$(document).ready(function(){
