@@ -1,0 +1,47 @@
+<% wrap_layout :layout do %>
+
+  <header class="mw8 center pb4">
+
+    <% link_to '/', :class => "link dib"  do %>
+      <%= image_tag 'logo.png', :class => "pl1", :height => "72" %>
+    <% end %>
+
+    <nav class="fr" style="line-height: 72px;">
+
+      <div class="dn db-l">
+        <%= link_to  'The Wine', 'wines', :class => 'dark-blue link dim ph3' %>
+        <%= link_to  'The Place', 'place', :class => 'dark-blue link dim ph3' %>
+        <%= link_to  'The Family', 'family', :class => 'dark-blue link dim ph3' %>
+        <%= link_to  'The Story', 'story', :class => 'dark-blue link dim ph3' %>
+      </div>
+
+      <div class="button dn-l">
+        <a class="btn-open" href="#"></a>
+      </div>
+
+    </nav>
+
+  </header>
+
+
+  <%= partial 'hamburger-overlay' %>
+
+
+  <!-- PAGE START -->
+
+  <% if current_page.data.hero.present? %>
+    <section class="w-100 tc mb5">
+      <%= image_tag current_page.data.hero, :class => 'w-100' %>
+    </section>
+  <% end %>
+
+  <% if current_page.data.title.present? %>
+    <section class="mw8 center mb4">    
+      <h1 class="normal mv0 tc"><%= current_page.data.title %></h1>
+    </section>
+  <% end %>
+
+  <%= yield %>
+
+
+<% end %>
