@@ -8,7 +8,7 @@
 	},
 	{
 		"year": 1979,
-		"story": "Randy harvests 9 tons of Cabernet Sauvignon from his vineyard and an adjoining vineyard that he manages. He also purchases 3 tons from the Beatty vineyard and produces 660 cases of 750ml’s, 28 cases of magnums and 53 five liter bottles, Dunn Vineyards begins…",
+		"story": "Randy harvests 9 tons of Cabernet Sauvignon from his vineyard and the Fank Vineyard. He purchases 3 tons from the Beatty vineyard and produces 660 cases of 750ml’s, 28 cases of magnums and 53 five liter bottles, Dunn Vineyards begins…",
 		"quote": "I knew that I wanted to simplify things after my experience at Caymus. I didn’t want to be bottling into the back of a super market truck and didn’t want to be subjugated to the marketing department’s demands. Keep it simple dummy."
 	},
 	{
@@ -18,17 +18,16 @@
 	},
 	{
 		"year": 1982,
-		"story": "(pic of 5L box) made by hand from a fallen Ponderosa Pine. Randy assists the Lamborn Family with their first wine, consults on Bill Smith’s La Jota project with Helen Turley.",
+		"story": "[[ NEEDS EDITING ]] (pic of 5L box) made by hand from a fallen Ponderosa Pine. Randy assists the Lamborn Family with their first wine, consults on Bill Smith’s La Jota project with Helen Turley.",
 		"story2": "The 5L boxes were hand made here at the winery from a fallen Ponderosa Pine. Randy makes the first Lamborn Family wine. Randy consults on Bill Smith’s revived La Jota wine with Helen Turley."
 	},
 	{
 		"year": 1983,
-		"story": "Randy makes the first Grace Family wine at the Caymus winery.",
-		"story2": "Randy makes the first Grace Family Cabernet. He had been making wine with this fruit at Caymus as a single vineyard wine."
+		"story": "Randy makes the first Grace Family wine at the Caymus winery."
 	},
 	{
 		"year": 1984,
-		"story": "ATF approves Howell Mountain AVA in January. The ’81 vintage is bottled and the 5L’s received etched bottles for the first time. Randy made the Livingstone – Moffett wine."
+		"story": "The ATF approves Howell Mountain AVA in January. The ’81 vintage is bottled and the 5L’s received etched bottles for the first time. Randy made the Livingston – Moffett wine."
 	},
 	{
 		"year": 1985,
@@ -36,11 +35,11 @@
 	},
 	{
 		"year": 1986,
-		"story": "The family moves into the brown house. Randy makes the first Pahlmeyer wine after offering to buy Jayson’s fruit."
+		"story": "The family moves into the brown house. Randy makes the first Pahlmeyer wine after offering to buy Jayson’s {{ ? }} fruit."
 	},
 	{
 		"year": 1987,
-		"story": "Raul Martinez is brought on the assist Randy in the vineyard, he was employee #1 and is still our vineyard manager to this day."
+		"story": "Raul Martinez is brought on to assist Randy in the vineyard. He was the first employee and is still our vineyard manager to this day."
 	},
 	{
 		"year": 1988,
@@ -64,47 +63,48 @@
 	},
 	{
 		"year": 1996,
-		"story": "Jennifer graduates HS"
+		"story": "Jennifer graduates HS."
 	},
 	{
 		"year": 1997,
-		"story": "Mike and Kara have a baby girl, the first granddaughter. Tatyana is born"
+		"story": "Mike and Kara have a baby girl, the first granddaughter. Tatyana is born."
 	},
 	{
 		"year": 1999,
-		"story": "Mike returns to the winery, working 3 days a week. Kristina graduates from High School. We have our biggest set back ever as Jennifer passes away.",
-		"story2": "Mike returns to help out at the winery the first order of business, building a new crush pad. Jenny passes away. Kristina graduates H.S."
+		"story": "Mike returns to the winery, working 3 days a week. Kristina graduates from High School. We have our biggest set back ever as Jennifer passes away."
 	},
 	{
 		"year": 2001,
-		"story": "Randy makes the first vintage of the Palmaz wine here, as they construct their facility. Lori passes her exam and becomes a Master Gardner. Planted the Lake Vineyard and purchased the New Hearth property.",
-		"story2": "Adan Salgado is hired on full time to assist in the vineyard not only is he still a part of the team, but is responsible for waxing the Howell Mountain wine every vintage."
+		"story": "Randy makes the first vintage of the Palmaz wine here, as they construct their facility. Lori passes her exam and becomes a Master Gardener. Planted the Lake Vineyard and purchased the New Hearth property {{ ? }}.",
+		"story2": "Adan Salgado is hired on full time to assist in the vineyard not only is he still a part of the team, but is responsible for waxing the Howell Mountain wine every vintage (100 cases a day)."
 	},
 	{
 		"year": 2003,
-		"story": "Randy makes the first vintage of Feather for the Long Shadows project in the Columbia Valley of Washington. Mike buys the old vine Petite Sirah from Randy’s Park Muscatine Vineyard and starts the Retro Cellars label with Kara. "
+		"story": "Randy makes the first vintage of Feather for the Long Shadows project in the Columbia Valley of Washington.",
+    "story2": "Mike buys the old vine Petite Sirah from Randy’s Park Muscatine Vineyard and starts the <a href=\"retrocellars.com\" class=\"link dim dark-blue\">Retro Cellars label</a> with Kara."
 	},
 	{
 		"year": 2004,
-		"story": "Mike sells the bike shop and renovations begin on the white house (office). Sentinel Hill is purchased."
+		"story": "Mike sells the bike shop and renovations begin on the white house (office). The Sentinel Hill is purchased and the development rights are gifted to the Napa Valley Land Trust."
 	},
 	{
 		"year": 2005,
-		"story": "Kristina graduates from Cal Poly. The first class of their Wine and Viticulture program.",
+		"story": "Kristina graduates from Cal Poly. Hers is the first class of their Wine and Viticulture program.",
 		"story2": "Rosalio Olivera is hired full time to assist in the vineyard and remains a valuable member of the team today."
 	},
 	{
 		"year": 2006,
-		"story": "Kristina comes to work full time at the winery. Randy and Lori close on the Wildlake Property",
-		"story2": "Marcos Olivera joins us full time. He is the back bone of the vineyard crew and if Raul ever retires most certainly will take his place."
+		"story": "Kristina comes to work full time at the winery.",
+    "story2": "Randy and Lori purchase the Wildlake Property and donate it to the Napa Valley Land Trust.",
+		"story3": "Marcos Olivera joins us full time. He is the back bone of the vineyard crew and if Raul ever retires most certainly will take his place."
 	},
 	{
 		"year": 2008,
-		"story": "Four continous days of 19&deg; lows cut our harvest in half for the year."
+		"story": "Four continuous days of 19&deg; lows cut our harvest in half for the year."
 	},
 	{
 		"year": 2010,
-		"story": "Kristina marrie Brian Buchanan"
+		"story": "Kristina marrie Brian Buchanan."
 	},
 	{
 		"year": 2011,
@@ -125,8 +125,8 @@
 	{
 		"year": 2015,
 		"story": "Ashlyn, Kristina and Brian’s second daughter is born.",
-		"story2": "Fernando Olivera Hernandez is hired full time with us",
-		"story3": "Jay McInerney pays a visit to the winery and <a class=\"link\" target=\"_blank\" href=\"http://www.townandcountrymag.com/leisure/drinks/a4256/jay-mcinerney-june-july-2014/\"> writes it up</a>."
+		"story2": "Fernando Olivera Hernandez is hired full time with us.",
+		"story3": "Jay McInerney pays a visit to the winery and <a class=\"link dark-blue dim\" target=\"_blank\" href=\"http://www.townandcountrymag.com/leisure/drinks/a4256/jay-mcinerney-june-july-2014/\"> writes about it</a>."
 	},
 	{
 		"year": 2016,
@@ -134,6 +134,6 @@
 	},
 	{
 		"year": "The Future",
-		"story": "We have no intentions of increasing our production or growing the brand. The current size of our farm and its production allows us to be involved in all aspects. If it were any bigger the work would become much more administrative, managerial not to mention the amount of effort to sell the wine would increase exponentially and for us that’s not the fun part."
+		"story": "<i>We have no intentions of increasing our production or growing the brand. The current size of our farm and its production allows us to be involved in all aspects. If it were any bigger the work would become much more administrative, managerial not to mention the amount of effort to sell the wine would increase exponentially and for us that’s not the fun part.</i>"
 	}
 ]
