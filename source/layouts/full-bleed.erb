@@ -1,14 +1,15 @@
 <% wrap_layout :layout do %>
 
-  <section  class="pt4" style="background: url('/images/<%= current_page.data.hero %>') top center; background-size: cover; height: 100vh;">
+    <div class="button absolute di top-2 right-2 f2 z-999">
+      <a class="btn-open" href="#"></a>
+    </div>
+  <section  class="pt5" style="background: url('/images/<%= current_page.data.hero %>') top center; background-size: cover; height: 100vh;">
+
 
     <header class="mw8 center tc mb4">
       <% link_to '/', :class => "link dib"  do %>
         <%= image_tag 'logo.png', :class => "pl1", :height => "72" %>
       <% end %>
-      <div class="button">
-        <a class="btn-open" href="#"></a>
-      </div>
     </header>
 
     <%= partial 'hamburger-overlay' %>
