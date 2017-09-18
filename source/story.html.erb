@@ -12,6 +12,12 @@ layout: "standard"
         <% data.stories.each do |f| %>
           <h3 class="mt4"><%= f.year %></h3> 
           <p class="lh-copy measure center"><%= f.story %></p>
+          <% if f.story2.present? %>
+            <p class="lh-copy measure center"><%= f.story2 %></p>
+          <% end %>
+          <% if f.story3.present? %>
+            <p class="lh-copy measure center"><%= f.story3 %></p>
+          <% end %>
         <% end %>
       </div>
 
