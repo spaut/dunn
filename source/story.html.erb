@@ -10,8 +10,8 @@ layout: "standard"
 
         <% data.storypics.each do |f| %>
           <div class="tile">
-            <a class="tile-inner" href="/images/story/<%= f.photo %>">
-              <img class="item" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/images/story/<%= f.photo %>" />
+            <a class="tile-inner" href="/images/<%= f.photo %>">
+              <img class="item" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/images/<%= f.photo %>" />
               <div class="caption-block">
                 <div class="text-wrapper">
                   <!-- <h4 class='title'>Title here</h4> -->
