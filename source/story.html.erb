@@ -3,33 +3,28 @@ title: "The Story"
 layout: "standard"
 ---
 
-<section class="mv5 mw8 center">
-  <div class="center pv3 cf mw8">
-    <div class="w-100 center cf">
+<section class="ma5">
+  <div class="">
+<div class="final-tiles-gallery caption-bottom caption-fixed caption-color-dark">
+  <div class="ftg-items">
 
-      <!-- COL 1 -->
-      <div class="fl w-100 w-50-l ph4 mb4-l">
-        <% data.stories.each do |f| %>
-          <h3 class="mt4"><%= f.year %></h3> 
-          <p class="lh-copy measure center"><%= f.story %></p>
-          <% if f.story2.present? %>
-            <p class="lh-copy measure center"><%= f.story2 %></p>
-          <% end %>
-          <% if f.story3.present? %>
-            <p class="lh-copy measure center"><%= f.story3 %></p>
-          <% end %>
-        <% end %>
-      </div>
-
-      <!-- COL 2 -->
-      <div class="fl w-100 w-50-l ph4">
-        <% data.family.each do |f| %>
-          <%= image_tag f.photo, :class => 'w-100' %>
-          <p class="f5 i mt1 mb4"><%= f.caption %></p>
-        <% end %>
-      </div>
-
+<% data.family.each do |f| %>
+<div class="tile">
+  <a class="tile-inner" href="/images/<%= f.photo %>">
+    <img class="item" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/images/<%= f.photo %>" />
+    <div class="caption-block">
+      <div class="text-wrapper">
+        <!-- <h4 class='title'>Title here</h4> -->
+      <h5 class='subtitle f5'><%= f.caption %></h4>
     </div>
-  </div>
-</section>
+   </div>
+  </a>
+</div>
+<% end %>
 
+</div>
+
+  </div>
+</div>
+
+</section>
