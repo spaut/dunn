@@ -3,33 +3,12 @@ title: "The Story"
 layout: "standard"
 ---
 
-<section class="ma5">
-  <div class="">
-    <div class="final-tiles-gallery caption-bottom caption-fixed caption-color-dark">
-      <div class="ftg-items">
-
-        <% data.storypics.each do |f| %>
-          <div class="tile">
-            <a class="tile-inner" href="/images/story/<%= f.photo %>">
-              <img class="item" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/images/story/<%= f.photo %>" />
-              <div class="caption-block">
-                <div class="text-wrapper">
-                  <!-- <h4 class='title'>Title here</h4> -->
-                  <h5 class='subtitle f5'><%= f.caption %></h4>
-                </div>
-              </div>
-            </a>
-          </div>
-        <% end %>
-
-      </div>
-    </div>
-  </div>
-</section>
-
-
 <section class="mv5 mw8 center">
-  <div class="center measure">
+  <div class="center pv3 cf mw8">
+    <div class="w-100 center cf">
+
+      <!-- COL 1 -->
+      <div class="fl w-100 w-50-l ph4 mb4-l">
     <p class="lh-copy meausre">After making wine at Caymus for a few years, Randy decided it was time to strike out on his own. In 1978 he and Lori purchased the “Trailer Vinyard” and began farming 51/2 acres of Cabernet in their “free time”.   The next year Randy harvested 9 tons of fruit from the Trailer and Frank vineyards and then bought another 3 tons from Beatty.  When all was said and done he had 660 cases of 750mls, 28 cases of magnums, and 53 five liter bottles.</p>
     <p class="measure lh-copy">Dunn Vineyards begins … </p>
     <p class="measure lh-copy">Things happened quickly after that. 1981 marked the bonding of the  winery in Angwin. And by 1984 the ATF approved the Howell Mountain AVA.   [[ talk about living in the White House — was there a trailer before that?]</p>
@@ -38,6 +17,17 @@ layout: "standard"
     <p class="lh-copy measure">The mountain and the climate always keep things interesting.  1981 brought four days of 19degree lows which cut that year’s harvest in half.  The latest harvest was in 2011 — picking didn’t start until October 29th.  Some years we have a special release like when we retired the Trailer Vineyard and grafted [?] onto the existing rootstock in 2016.
     </p>
     <p class="lh-copy measure i">We have no intentions of increasing our production or growing the brand. The current size of our farm and its production allows us to be involved in all aspects. If it were any bigger the work would become much more administrative, managerial not to mention the amount of effort to sell the wine would increase exponentially and for us that’s not the fun part.</p>
+      </div>
+
+      <!-- COL 2 -->
+      <div class="fl w-100 w-50-l ph4">
+        <% data.storypics.each do |f| %>
+          <%= image_tag f.photo, :class => 'w-100' %>
+          <p class="f5 i mt1 mb4"><%= f.caption %></p>
+        <% end %>
+      </div>
+
+    </div>
   </div>
 </section>
 

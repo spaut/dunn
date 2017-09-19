@@ -1,0 +1,58 @@
+[
+  {
+		"photo": "story/airplane.jpg",
+		"caption": "The plane"
+	},
+  {
+		"photo": "story/alex-kristina-stompin.jpg",
+		"caption": "Alex and Kristina, stompin'"
+	},
+  {
+		"photo": "story/dont-drink-and-drive.jpg",
+		"caption": "Don't drink and drive"
+	},
+  {
+		"photo": "story/fire-truck-water-fight.jpg",
+		"caption": "Fire truck water fight"
+	},
+  {
+		"photo": "story/harvest.jpg",
+		"caption": "Harvest"
+	},
+  {
+		"photo": "story/land-historical.jpg",
+		"caption": "[[Caption needed]]"
+	},
+  {
+		"photo": "story/randy-caves.jpg",
+		"caption": "Randy in the caves"
+	},
+  {
+		"photo": "story/randy-grapes.jpg",
+		"caption": "Hey, that's not cabernet"
+	},
+  {
+		"photo": "story/randy-truck.jpg",
+		"caption": "[[What's the make and model?]]"
+	},
+  {
+		"photo": "story/randy-vineyard.jpg",
+		"caption": "[[Which vineyard?]]"
+	},
+  {
+		"photo": "story/tilling.jpg",
+		"caption": "Randy, tilling"
+	},
+  {
+		"photo": "story/turbo-cmndr.jpg",
+		"caption": "The Turbo Commander"
+	},
+  {
+		"photo": "story/white-house.jpg",
+		"caption": "The White House"
+	},
+  {
+		"photo": "story/working.jpg",
+		"caption": "Working ..."
+	}
+]

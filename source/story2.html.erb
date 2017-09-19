@@ -23,7 +23,7 @@ layout: "standard"
 
       <!-- COL 2 -->
       <div class="fl w-100 w-50-l ph4">
-        <% data.family.each do |f| %>
+        <% data.storypics.each do |f| %>
           <%= image_tag f.photo, :class => 'w-100' %>
           <p class="f5 i mt1 mb4"><%= f.caption %></p>
         <% end %>
