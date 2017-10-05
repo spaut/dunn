@@ -49,3 +49,8 @@
     max-width:90%;
     margin:0 auto;
 }
+
+/* Rotate effect */
+.rotate-left {
+  transform: rotate(-3deg);
+}
