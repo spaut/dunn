@@ -23,3 +23,13 @@
 .rotate-left {
   transform: rotate(-3deg);
 }
+
+
+/* links and labels */
+.dunn-link {
+  /*color: #AD582D;*/
+  color: #7B2742;
+}
+label:hover {
+  text-decoration: underline;
+}

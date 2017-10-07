@@ -1,5 +1,6 @@
 ---
 title: 'Tasting Notes'
+layout: "standard"
 ---
 
 
@@ -8,10 +9,10 @@ title: 'Tasting Notes'
 	<div class="w-100 center cf">
 		<div class="fl w-100 w-30-l">
 			<div id="tags" class="f5 lh-copy pr4">
-				<label id="howell" class="db">Howell Mountain</label>
-				<label id="trailer" class="db">Howell Mountain &mdash; Trailer Vineyard</label>
-				<label id="napa" class="db">Napa Valley</label>
-				<label id="petit" class="db">Petit Syrah</label>
+				<label id="howell" class="db dunn-link">Howell Mountain</label>
+				<label id="trailer" class="db dunn-link">Howell Mountain &mdash; Trailer Vineyard</label>
+				<label id="napa" class="db dunn-link">Napa Valley</label>
+				<label id="petit" class="db dunn-link">Petit Syrah</label>
 				<hr />
 			</div>
 		</div>
@@ -61,7 +62,7 @@ var showAllTrailer = function(){
 }
 
 var renderEverything = function(tagToMatch){
-	console.log("the tag is ..." + tagToMatch)
+	<%#console.log("the tag is ..." + tagToMatch)%>
 	hideAll();
 	$("div." + tagToMatch).show();
 }
@@ -76,7 +77,7 @@ var addTagHandlers = function(){
 
 var createNumLabels = function(){
 	for(var i=2013; i>1978; i--){
-		$("div#tags").append("<label class=\"w3 dib\" id=\"" + i + "\">" + i + "</label>");
+		$("div#tags").append("<label class=\"w3 dib dunn-link\" id=\"" + i + "\">" + i + "</label>");
 	}
 	//$("div#tags label").addClass('db');
 	//console.log('created the number labeles ... ');
