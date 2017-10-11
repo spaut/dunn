@@ -54,6 +54,7 @@
 			<%#}); %>
 
 			$(document).ready(function(){
+        // hamburger navigation
 				$('#nav-icon3').click(function(){
           console.log('clicked');
 					$(this).toggleClass('open');
@@ -64,6 +65,16 @@
           $("#nav-icon3").toggleClass('open');
           <%#open = false;%>
         });
+        // Scrapbook stuff
+        var setScrapbookRowHeight = function(){
+          scbkw = $('.scrapbook-height').width();
+          console.log('scbkw is ' + scbkw);
+          scbkh = scbkw * .42;
+          console.log('scbkh is ' + scbkh);
+          $('.scrapbook-height').height( scbkh );
+        }
+        setScrapbookRowHeight();
+        $(window).resize(setScrapbookRowHeight);
       });
 
     </script>
