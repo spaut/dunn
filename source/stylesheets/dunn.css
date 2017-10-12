@@ -24,6 +24,10 @@
   transform: rotate(-3deg);
 }
 
+/* get rid of dotted box */
+a {
+  outline: 0;
+}
 
 /* links and labels */
 .dunn-link {
