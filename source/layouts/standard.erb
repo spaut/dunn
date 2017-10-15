@@ -1,9 +1,9 @@
 <% wrap_layout :layout do %>
 
-  <header class="mw8 center pv4 ph3 ph0-l tc tl-ns">
+  <header class="mw8 center pv3 pv4-ns ph3 tc tl-l">
 
     <% link_to '/', :class => "link dib"  do %>
-      <%= image_tag 'logo.png', :class => "pl1", :height => "72" %>
+      <%= image_tag 'logo.png', :class => "standard-logo" %>
     <% end %>
 
     <nav class="fr" style="line-height: 72px;">
@@ -36,14 +36,14 @@
   <!-- PAGE START -->
 
   <% if current_page.data.hero.present? %>
-    <section class="w-100 tc mb5">
+    <section class="w-100 tc mb4 mb5-ns">
       <%= image_tag current_page.data.hero, :class => 'w-100' %>
     </section>
   <% end %>
 
   <% if current_page.data.title.present? %>
-    <section class="mw8 center mb4">    
-      <h1 class="normal mv0 tc"><%= current_page.data.title %></h1>
+    <section class="mw8 center mb3 mb4-ns">    
+      <h1 class="normal mv0 tc f2 f1-ns"><%= current_page.data.title %></h1>
     </section>
   <% end %>
 
