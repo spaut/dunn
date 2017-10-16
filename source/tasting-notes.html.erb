@@ -5,10 +5,10 @@ layout: "standard"
 
 
 
-<section class="mt0 mb5 mw8 center">
+<section class="mt0 mb4 mb5-l mw8 center ph4">
 	<div class="w-100 center cf">
-		<div class="fl w-100 w-30-l">
-			<div id="tags" class="f5 lh-copy pr4">
+		<div class="fl-l measure center w-30-l pb4 pb0-l">
+			<div id="tags" class="f5 lh-copy pr4-l center tc">
 				<label id="howell" class="db dunn-link">Howell Mountain</label>
 				<label id="trailer" class="db dunn-link">Howell Mountain &mdash; Trailer Vineyard</label>
 				<label id="napa" class="db dunn-link">Napa Valley</label>
@@ -16,9 +16,9 @@ layout: "standard"
 				<hr />
 			</div>
 		</div>
-		<div class="fl w-100 w-50-l">
+		<div class="fl w-100 w-70-l">
 			<% data.notes.each do |f| %>
-				<div class="measure-wide center mb5 mt0 <%= f.year %> <%= f.tag %> note" style="display:none;">
+				<div class="measure-wide center mb3 mb4-m mb5-l mt0 <%= f.year %> <%= f.tag %> note" style="display:none;">
 					<h3 class="mb2 mt0"><%= f.year %> <%= f.wine %></h3>
 					<h4 class="mt0 normal i"><%= f.author %></h4>
 					<p class="lh-copy"><%= f.notes %></p> 
@@ -77,7 +77,7 @@ var addTagHandlers = function(){
 
 var createNumLabels = function(){
 	for(var i=2013; i>1978; i--){
-		$("div#tags").append("<label class=\"w3 dib dunn-link\" id=\"" + i + "\">" + i + "</label>");
+		$("div#tags").append("<label class=\"w3 tc dib dunn-link\" id=\"" + i + "\">" + i + "</label>");
 	}
 	//$("div#tags label").addClass('db');
 	//console.log('created the number labeles ... ');
