@@ -45,7 +45,6 @@
 			$(document).ready(function(){
         // hamburger navigation
 				$('#nav-icon3').click(function(){
-          console.log('clicked');
 					$(this).toggleClass('open');
 					$(".overlay").fadeToggle(200);
 				});
@@ -57,10 +56,15 @@
         // Scrapbook stuff
         var setScrapbookRowHeight = function(){
           scbkw = $('.scrapbook-height').width();
-          console.log('scbkw is ' + scbkw);
-          scbkh = scbkw * .42;
-          console.log('scbkh is ' + scbkh);
-          $('.scrapbook-height').height( scbkh );
+          console.log(scbkw);
+          if(scbkw >= 416){
+            console.log('were over 416');
+            scbkh = scbkw * .42;
+            console.log('scbkh is' + scbkh);
+            $('.scrapbook-height').height( scbkh );
+          } else {
+            $('.scrapbook-height').height( 'auto' );
+          }
         }
         setScrapbookRowHeight();
         $(window).resize(setScrapbookRowHeight);
