@@ -25,8 +25,8 @@
 }
 
 /* get rid of dotted box */
-a {
-  outline: 0;
+a, a:active, a:focus, a:hover {
+  outline: none !important;
 }
 
 /* links and labels */
@@ -44,7 +44,7 @@ label:hover {
 }
 @media screen and (min-width: 30em) {
   .full-bleed-logo {
-    height: 92px;
+    height: 100px;
   }
 }
 .standard-logo {
