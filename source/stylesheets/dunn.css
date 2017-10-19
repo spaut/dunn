@@ -32,7 +32,8 @@ a, a:active, a:focus, a:hover {
 /* links and labels */
 .dunn-link {
   /*color: #AD582D;*/
-  color: #7B2742;
+/* color: #7B2742; maroon */
+  color: #884540; /* grape bin red */
 }
 label:hover {
   text-decoration: underline;
