@@ -34,12 +34,11 @@ a, a:active, a:focus, a:hover {
    color: #884540; /* grape bin red */
 }
 .txt-link{
-   border-bottom: 2px solid #FBF1A9;
-   box-shadow: inset 0 -8px 0 #FBF1A9;
+  border-bottom: 1px solid #884540;
 }
 
 .txt-link:hover {
-  background: #FBF1A9; 
+  background: #eeeeee; 
 }
 
 label:hover {
