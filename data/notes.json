@@ -1,5 +1,23 @@
 [
 	{ "wine": "Howell Mountain",
+		"year": "2015",
+    "tag": "howell",
+		"author": "Antonio Galloni",
+		"notes": "Made from yields of just one ton per acre, the 2015 Cabernet Sauvignon Howell Mountain is ripe, sensual and racy.  Unusually soft contours give the wine considerable appeal, even as a barrel sample at this early stage.  The flavors are dark and intense throughout."
+	},
+	{ "wine": "Howell Mountain",
+		"year": "2014",
+    "tag": "howell",
+		"author": "Antonio Galloni",
+		"notes": "Inky blue/purplish fruit, graphite, lavender, grilled herbs and smoke run through the 2014 Cabernet Sauvignon (Howell Mountain). The 2014 has all the Dunn signatures in its flavor profile, but in the mid-weight style of the year.  This is an especially restrained, young wine for Dunn with far less of the tannic heft that readers familiar with these wines are likely to expect."
+	},
+	{ "wine": "Napa Valley",
+		"year": "2014",
+    "tag": "napa",
+		"author": "Antonio Galloni",
+		"notes": "The 2014 Cabernet Sauvignon (Napa Valley) is an unusually soft wine from Dunn.  Aromatically expressive and nuanced, the 2014 offers plenty of immediacy, with attractive red cherry, plum, sweet tobacco, dried flowers and cedar nuances.  In 2014, the Napa Valley Cabernet is a blend of equal parts estate fruit and purchased grapes from a site in Coombsville.  In many years, the Napa Valley bottling has been a miniature of the Howell Mountain, but in 2014 it is more typical of a true appellation-level Cabernet meant for near to medium-term drinking."
+	},
+	{ "wine": "Howell Mountain",
 		"year": "2013",
     "tag": "howell",
 		"author": "",
