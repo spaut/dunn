@@ -32,6 +32,7 @@ layout: "standard"
 <script>
 
 var showRecent = function(){
+	$("div.2016").show();
 	$("div.2015").show();
 	$("div.2014").show();
 	$("div.2013").show();
@@ -78,7 +79,7 @@ var addTagHandlers = function(){
 }
 
 var createNumLabels = function(){
-	for(var i=2015; i>1978; i--){
+	for(var i=2016; i>1978; i--){
 		$("div#tags").append("<label class=\"w3 tc dib dunn-link\" id=\"" + i + "\">" + i + "</label>");
 	}
 	//$("div#tags label").addClass('db');

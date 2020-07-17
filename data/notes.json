@@ -1,4 +1,22 @@
 [
+  { "wine": "Howell Mountain",
+		"year": "2016",
+    "tag": "howell",
+		"author": "Wine Spectator",
+		"notes": "Sage and bay leaf notes lead the way here, followed quickly by black currant and bitter plum paste flavors.  The finish is framed by singed cedar and alder details, with a lingering sanguine echo. Needs a little time to soften fully, but everything is in place.  Best from 2023 through 2038. 2,800 cases made. -JM"
+  },
+  { "wine": "Howell Mountain",
+		"year": "2016",
+    "tag": "howell",
+		"author": "Antonio Galloni",
+		"notes": "The 2016 Cabernet Sauvignon Howell Mountain offers good density, but in more of a medium-bodied style that is quite a bit more approachable than is the norm here. A whole range of inky Howell Mountain fruit, graphite, grilled herb, licorice, spice, chocolate, and lavender nuances open up in a brooding, resonant Cabernet that needs a few years in bottle to start drinking well. There is plenty of the structure readers have come to expect from Dunn, but less youthful austerity, which is not a bad thing at all."
+  },
+  { "wine": "Napa Valley",
+		"year": "2016",
+    "tag": "napa",
+		"author": "Antonio Galloni",
+		"notes": "Dunn's 2016 Cabernet Sauvignon (Napa Valley) is a pretty, easygoing wine that readers will be able to drink with minimal cellaring. Medium in body with good brightness, the 2016 has quite a bit to offer. Sweet red fruit and floral notes add perfume to the nicely lifted finish. The Napa Valley Cabernet was bottled recently and is a bit reticent, but it offers fine potential. Pretty savory and floral notes extend the finish nicely."
+	},
 	{ "wine": "Howell Mountain",
 		"year": "2015",
     "tag": "howell",
