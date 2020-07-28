@@ -5,19 +5,52 @@ hero: "contact/hero.jpg"
 
 ---
 <section class="mt0 mb4 mb5-ns mw8 center ph4">
+  <div class="center measure">
+  <!-- 
 	<div class="mw8 center cf mb4 mb5-l">
 		<div class="fl w-100 w-50-l ph4-l">
+    -->
       <h2 class="normal mt0 tc tl-l">Visiting</h2>
-      <p class="lh-copy measure center">Dunn Vineyards isn’t your typical Napa winery -- it’s a small, working farm and family home.  While we love to have folks up and show them around, there’s limited availability. We don’t host guests on the weekends so Randy and Lori can relax after a week of work. We prefer to find a time during the week when we’re not tending to the vines, making wine, or fixing equipment. Send <%= mail_to 'dunnvineyards@yahoo.com', "Kristina", :class => "dunn-link link txt-link" %> an email and she’ll try to work something out.</p>
-      <p class="lh-copy measure center">Email Kristina: <%= mail_to 'dunnvineyards@yahoo.com', "dunnvineyards@yahoo.com",:class => "dunn-link link txt-link" %></p>
+      <!-- 
+      <p class="lh-copy measure center">Dunn Vineyards isn’t your typical Napa winery -- it’s a small, working farm and family home.  While we love to have folks up and show them around, there’s limited availability. We don’t host guests on the weekends so Randy and Lori can relax after a week of work. We prefer to find a time during the week when we’re not tending to the vines, making wine, or fixing equipment. Send <%= mail_to 'kristina@dunnvineyards.com', "Kristina", :class => "dunn-link link txt-link" %> an email and she’ll try to work something out.</p> 
+      <p class="lh-copy measure center">Email Kristina: <%= mail_to 'kristina@dunnvineyards.com', "kristina@dunnvineyards.com",:class => "dunn-link link txt-link" %></p>
+      -->
+      <p class="lh-copy measure center">
+        Although we are currently closed to visitation due to the Covid-19 restrictions, we are glad to be joining the virtual landscape by offering the following:
+      </p>
+      <div class="mw6 mt5 tc center">
+      <h3 class="normal mb0 tc">Monthly Zoom Tastings</h3>
+      <p class="lh-copy measure center mt3 tc">Join a member of the Dunn family for our monthly Zoom tasting on the first Friday at 2pm PST. Wines to be tasted pulled from your cellar and specified on our <%= link_to 'Tasting Calendar', 'calendar', :class => 'dunn-link link txt-link' %> .</p>
+      <p class=" https://us02web.zoom.us/meeting/register/tZYqcuGvrDkqHtRonJcbHjIodnHXFD1iR1aP">
+      </p>
+
+      <h3 class="mb0 normal tc mt5">Weekly Instagram Live</h3>
+      <p class="lh-copy measure center mt3 tc">
+        A weekly <%= link_to 'Instagram Live Event', 'https://www.instagram.com/dunnvineyards/', :class => 'dunn-link link txt-link' %> at the winery, a glimpse of what’s happening at the winery and in the vineyards. Mondays at noon PST.
+      </p>
+      <h3 class="normal mb0 tc mt5">Private Zoom Tastings</h3>
+      <p class="lh-copy measure center mt3 tc">
+        Engage on a personal level with a private Zoom tasting, hosted by one of the Dunn family.
+      </p> 
+      <p class="lh-copy measure center tc">
+        <span class="i">Case Club members only.</span>
+      </p>
+      </div>
+
+      <p class="lh-copy measure center mt5">
+        Please email Kara Dunn at <%= mail_to 'kara@dunnvineyards.com', "kara@dunnvineyards.com",:class => "dunn-link link txt-link" %> for reservations and details.
+      </p>
+
+      <!--
     </div>
 		<div class="fl w-100 w-50-l ph4-l mt4 mt0-l">
-      <h2 class="normal mt0 tc tl-l">Allocation</h2>
-      <p class="lh-copy measure center">Our wine is sold direct to our loyal customers via our annual newsletter. If you have not purchased our wine from us directly and are interested in becoming a part of our annual newsletter, please email <%= mail_to 'info@dunnvineyards.com', "Erin",:class => "dunn-link link txt-link" %> for information.</p>
-      <p class="lh-copy measure center">Email Erin: <%= mail_to 'info@dunnvineyards.com', "info@dunnvineyards.com",:class => "dunn-link link txt-link" %></p>
+    -->
+      <h2 class="normal mt5 tc tl-l ">Allocation</h2>
+      <p class="lh-copy measure center">Our wine is sold direct to our loyal customers via our annual newsletter. If you have not purchased our wine from us directly and are interested in becoming a part of our annual newsletter, please email <%= mail_to 'erin@dunnvineyards.com', "Erin",:class => "dunn-link link txt-link" %> for information.</p>
+      <p class="lh-copy measure center">Email Erin: <%= mail_to 'erin@dunnvineyards.com', "erin@dunnvineyards.com",:class => "dunn-link link txt-link" %></p>
     </div>
   </div>
-  <div class="">
+  <div class="mt5">
     <%= image_tag "contact/end.jpg" %>
   </div>
 </section>
