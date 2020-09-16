@@ -15,18 +15,28 @@ hero: "contact/hero.jpg"
       <p class="lh-copy measure center">Dunn Vineyards isn’t your typical Napa winery -- it’s a small, working farm and family home.  While we love to have folks up and show them around, there’s limited availability. We don’t host guests on the weekends so Randy and Lori can relax after a week of work. We prefer to find a time during the week when we’re not tending to the vines, making wine, or fixing equipment. Send <%= mail_to 'kristina@dunnvineyards.com', "Kristina", :class => "dunn-link link txt-link" %> an email and she’ll try to work something out.</p> 
       <p class="lh-copy measure center">Email Kristina: <%= mail_to 'kristina@dunnvineyards.com', "kristina@dunnvineyards.com",:class => "dunn-link link txt-link" %></p>
       -->
+     <p class="lh-copy measure center">
+        Visits to the winery can be reserved by contacting Kara Dunn, <%= mail_to'kara@dunnvineyards.com', 'kara@dunnvineyards.com', :class => "dunn-link link txt-link" %>.  We’re open by reservation M-F on a very limited basis, as we’re a small family operation.
+      </p>
+      <!--
       <p class="lh-copy measure center">
         Although we are currently closed to visitation due to the Covid-19 restrictions, we are glad to be joining the virtual landscape by offering the following:
       </p>
+      -->
       <div class="mw6 mt5 tc center">
       <h3 class="normal mb0 tc">Monthly Zoom Tastings</h3>
-      <p class="lh-copy measure center mt3 tc">Join a member of the Dunn family for our monthly Zoom tasting on the first Friday at 2pm PST. Wines to be tasted pulled from your cellar and specified on our <%= link_to 'Tasting Calendar', 'calendar', :class => 'dunn-link link txt-link' %> .</p>
-      <p class=" https://us02web.zoom.us/meeting/register/tZYqcuGvrDkqHtRonJcbHjIodnHXFD1iR1aP">
+      <p class="lh-copy measure center mt3 tc">Join a member of the Dunn family for our monthly Zoom tasting on the first Friday at 2pm PST. Wines to be tasted pulled from your cellar.
       </p>
-
+      <p class="lh-copy measure center tc">
+      <span class="i">
+      <%= link_to 'Tasting Calendar', 'calendar', :class => 'dunn-link link txt-link' %></span>
+      </p>
       <h3 class="mb0 normal tc mt5">Weekly Instagram Live</h3>
       <p class="lh-copy measure center mt3 tc">
-        A weekly <%= link_to 'Instagram Live Event', 'https://www.instagram.com/dunnvineyards/', :class => 'dunn-link link txt-link' %> at the winery, a glimpse of what’s happening at the winery and in the vineyards. Mondays at noon PST.
+        A weekly <%= link_to 'Instagram Live Event', 'https://www.instagram.com/dunnvineyards/', :class => 'dunn-link link txt-link' %> at the winery, a glimpse of what’s happening at the winery and in the vineyards. 
+      </p>
+      <p class="lh-copy measure center tc">
+        <span class="i">Mondays at noon PST.</span>
       </p>
       <h3 class="normal mb0 tc mt5">Private Zoom Tastings</h3>
       <p class="lh-copy measure center mt3 tc">
